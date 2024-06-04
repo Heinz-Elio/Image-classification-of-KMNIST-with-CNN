@@ -19,15 +19,15 @@ The training epochs has no predetermined limit. Termination condition is impleme
 Since matplotlib does not support showing Japanese, a customized get_labels function for getting the Romanized equivalent of the Japanese character is defined. Saved base model is retrieved through the path generated while training to generate the prediction result.
 
 ## Result
-Results using the base learning scheme with initial learning rate = 0.1and batch size = 250:
+### Results using the base learning scheme with initial learning rate = 0.1and batch size = 250:
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/401b19c3-3793-4030-87a3-10790674e811)
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/60f29abe-3cc7-4c25-80aa-243aac0e447e)
 
-Results of changing the initial learning rate from 0.1 to 0.01:
+### Results of changing the initial learning rate from 0.1 to 0.01:
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/7bf989ba-4086-477a-b051-1af06e0c2378)
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/18aa58a8-65a1-4a94-8cd5-3e96f404c918)
 
-Results of changing the batch size from 250 to 500:
+### Results of changing the batch size from 250 to 500:
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/7ed85ac4-e266-44c1-a957-fccf083d523e)
 ![image](https://github.com/Heinz-Elio/Image-classification-of-KMNIST-with-CNN/assets/96605613/eda101c9-b1f1-4133-adb7-75543969dca4)
 
